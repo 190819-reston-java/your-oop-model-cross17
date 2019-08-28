@@ -1,5 +1,5 @@
 package com.revature.OOPProject;
 
-public class Vet {
+public class Car {
 
 }

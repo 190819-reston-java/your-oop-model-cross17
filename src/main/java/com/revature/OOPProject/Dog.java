@@ -29,7 +29,6 @@ public abstract class Dog {
 	
 	public Dog(String name, String color) {
 		this(name, color, 2);
-		System.out.println(color);
 	}
 	
 	public Dog(String name) {
@@ -37,7 +36,7 @@ public abstract class Dog {
 	}
 	
 	public Dog() {
-		System.out.println("Rex");
+		this("Rex");
 	}
 	
 	public void bark() {
@@ -48,7 +47,6 @@ public abstract class Dog {
 		System.out.println(this.name + " is wagging their tail!");
 	}
 	
-	public abstract void beg();
 	
 	public abstract void sleep();
 	

@@ -38,15 +38,15 @@ public class BorderCollie extends Dog implements Herding {
 	
 	@Override
 	public void sleep() {
-		System.out.println(this.getName() + " is having trouble sleeping");
+		System.out.println(this.getName() + " is almost sleep!");
 	}
 	
 		public void sleep(Bed b) {
 			System.out.println(this.getName() + " is sleeping!");
 		}
 	
-		public void sleep(Vet v) {
-			System.out.println(this.getName() + " can sleep here");
+		public void sleep(Car c) {
+			System.out.println(this.getName() + " can't sleep here");
 		}
 	
 	
