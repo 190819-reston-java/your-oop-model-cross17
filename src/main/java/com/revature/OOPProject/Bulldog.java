@@ -8,7 +8,7 @@ public class Bulldog extends Dog {
 	}
 
 	public Bulldog(String name, String color) {
-		super(name, color);
+		super(name, color, 1);
 		// TODO Auto-generated constructor stub
 	}
 

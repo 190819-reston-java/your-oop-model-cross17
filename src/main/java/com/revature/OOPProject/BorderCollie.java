@@ -21,10 +21,6 @@ public class BorderCollie extends Dog implements Herding {
 	public BorderCollie() {
 		// TODO Auto-generated constructor stub
 	}
-	
-	public void beg() {
-		
-	}
 
 	public void herd() {
 		System.out.println(this.getName() + " is herding! He's a good boy.");
