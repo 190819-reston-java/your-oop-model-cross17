@@ -1,17 +1,23 @@
 package com.revature.OOPProject;
 
-
 public abstract class Dog {
-	/*Your OOP Model:
-		1. Come up with some domain model and implement it
-		2. Use at least one Abstract Class, at least one Interface, at least two concrete classes
-		3. Override at least one method
-		4. Overload at least one method
-		5. Use at least one static field and or method
-		Bonus:
-		Create custom collections for your domain model by extending and
-		implementing Abstract classes and Interfaces from the Collections API
-		Some Suggestions: animals, vehicles, pokemon, shapes, fruity drinks, ...*/
+//	Your OOP Model, EXTENDED for the week:
+//		You're free to work in pairs -- just message me in the Slack
+//		1. Come up with some domain model and implement it
+//		*2. Use at least one Abstract Class, at least one Interface, at least two concrete classes
+//		*3. Override at least one method
+//		*4. Overload at least one method
+//		*5. Use at least one static field and or method
+//		*6. Make sure your methods are implemented, even if they all just sysout something
+//		*7. Make at least one of your Objects implement Comparable
+//		*8. Demonstrate sorting your Objects using a TreeSet or Arrays.sort
+//		9. Write, throw, and handle at least one checked Exception and at least one unchecked Exception
+//		10. Plan to present your model in about 5 minutes, informally, on Friday.  You'll be able to use the board and/or present your screen.  No slideshows please.
+//		Bonus:
+//		-Create custom collections for your domain model by extending and
+//		 implementing Abstract classes and Interfaces from the Collections API
+//		-Create a separate Comparator object to compare your Objects in more than one way
+//		-Write a Driver class that does something fun: writes/reads from file, interacts with a user on the command line, draws ASCII art, etc...
 	
 
 	private String name;
@@ -23,7 +29,7 @@ public abstract class Dog {
 		super();
 		this.name = name;
 		this.color = color;
-		this.age = age;
+		this.setAge(age);
 		
 	}
 	
@@ -72,10 +78,17 @@ public abstract class Dog {
 	public double getAge() {
 		return age;
 	}
+	
 
+	
 	public void setAge(double age) {
+		if(age < 0.0) {
+			throw new UnbornException();
+		}
 		this.age = age;
 	}
+
+	
 
 	@Override
 	public String toString() {
@@ -85,5 +98,7 @@ public abstract class Dog {
 	public static void main(String[] args) {
 		
 	}
+	
+	
 	
 }
