@@ -1,0 +1,21 @@
+2019-09-10 09:35:36 WARN  BalanceReturn:23 - Inputting a non-numeric character will result in an invalid input, reloading this page.
+2019-09-10 09:37:54 INFO  BalanceReturn:24 - test2
+2019-09-10 09:40:11 INFO  BalanceReturn:24 - test2
+2019-09-10 09:46:01 INFO  BalanceReturn:24 - test2
+2019-09-10 09:47:03 WARN  BalanceReturn:24 - test3
+2019-09-10 09:47:27 TRACE BalanceReturn:24 - trace
+2019-09-10 09:47:27 INFO  BalanceReturn:24 - test2
+2019-09-10 09:47:27 WARN  BalanceReturn:24 - test3
+2019-09-10 09:47:56 WARN  BalanceReturn:24 - test3
+2019-09-10 09:48:11 WARN  BalanceReturn:24 - test3
+2019-09-10 09:48:33 WARN  BalanceReturn:24 - test3
+2019-09-10 09:48:44 WARN  BalanceReturn:24 - test3
+2019-09-10 09:48:56 WARN  BalanceReturn:24 - test3
+2019-09-10 09:49:10 WARN  BalanceReturn:24 - test3
+2019-09-10 09:49:14 WARN  BalanceReturn:24 - test3
+2019-09-10 09:50:18 WARN  BalanceReturn:24 - test3
+2019-09-10 09:53:23 INFO  BalanceReturn:24 - test2
+2019-09-10 09:53:23 WARN  BalanceReturn:24 - test3
+2019-09-10 09:53:42 TRACE BalanceReturn:24 - trace
+2019-09-10 09:53:42 INFO  BalanceReturn:24 - test2
+2019-09-10 09:53:42 WARN  BalanceReturn:24 - test3
